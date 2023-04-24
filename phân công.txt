@@ -1,0 +1,6 @@
+1. làm giao diện đăng nhập ban đầu, shop bán vật phẩm, cơ chế đặt cược-> đạt 
+
+2. thiết kế và làm map (ít nhất 5 mẫu) theo các khối và làm nhân vật(5 mẫu nhân vật) và thiết kế các mẫu xe(5 mẫu)
+Quân , thạch
+3. tìm hiểu và làm logic game
+bằng , trung 
