@@ -2,9 +2,10 @@ package entity;
 
 
 import java.awt.Graphics2D;
+import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.util.Random;
+
 
 import javax.imageio.ImageIO;
 
@@ -14,12 +15,17 @@ public class Player extends Entity {
     GamePanel gp;
     public Player(GamePanel gp){
         this.gp=gp; 
+        solidArea=new Rectangle();
+        solidArea.x=8;
+        solidArea.y=16;
+        solidArea.width=32;
+        solidArea.height=32;
         setDefaultValues();
         getPlayerImage();
     }
     public void setDefaultValues(){
-        x=100;
-        y=100;
+        x=200;
+        y=200;
         speed=4;
     }
     public void getPlayerImage(){
@@ -30,19 +36,14 @@ public class Player extends Entity {
         }
     }
     public void update(){
-        Random rd= new Random();
-        if(rd.nextBoolean()){
-            x+=speed;
+        // BotAI
+         
+        collisionOn=false;
+        gp.cChecker.checkTile(this);
+        if(collisionOn==false){
+            // Moving of BotAI
         }
-        else{
-            x-=speed;
-        }
-        if(rd.nextBoolean()){
-            y+=speed;
-        }
-        else{
-            y-=speed;
-        }
+
     }
     public void draw(Graphics2D g2){
         BufferedImage image =nv;

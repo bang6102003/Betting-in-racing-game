@@ -12,23 +12,30 @@ import mapgame.GamePanel;
 
 public class TileManager {
     GamePanel gp;
-    Tile[] tile;
-    int mapTileNum[][];
+    public Tile[] tile;
+    public int mapTileNum[][];
     public TileManager(GamePanel gp){
         this.gp=gp;
         tile=new Tile[10];
         mapTileNum=new int[gp.maxScreenCol][gp.maxScreenRow];
         getTileImage();
-        loadMap("map1.txt");
+        loadMap("mapallwater.txt");
     }
     public void getTileImage(){
         try{
             tile[0]=new Tile();
-            tile[0].image=ImageIO.read(getClass().getResourceAsStream("tree.png"));
+            tile[0].image=ImageIO.read(getClass().getResourceAsStream("sand.png"));
             tile[1]=new Tile();
             tile[1].image=ImageIO.read(getClass().getResourceAsStream("wall.png"));
+            tile[1].collision=true;
             tile[2]=new Tile();
-            tile[2].image=ImageIO.read(getClass().getResourceAsStream("water.png"));
+            tile[2].image=ImageIO.read(getClass().getResourceAsStream("grass.png"));
+            tile[3]=new Tile();
+            tile[3].image=ImageIO.read(getClass().getResourceAsStream("water.png"));
+            tile[4]=new Tile();
+            tile[4].image=ImageIO.read(getClass().getResourceAsStream("tree.png"));
+            tile[4].collision=true;
+
         } catch(IOException e){
             e.printStackTrace();
         } 
