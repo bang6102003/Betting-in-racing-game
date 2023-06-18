@@ -6,6 +6,8 @@ package com.example.src1.DAO;
 
 import com.example.src1.Database.JDBCUtil;
 import com.example.src1.Model.User;
+import com.example.src1.Model.User_ToanCuc;
+
 import java.util.ArrayList;
 import java.sql.Connection;
 import java.sql.*;
@@ -55,6 +57,10 @@ public class UserDAO implements interfaceDAO<User>{
 
     @Override
     public int updatePoint(int player_point, String player_user) {
+        if(player_point<0){
+            player_point=0;
+            User_ToanCuc.setPlayer_point(0);
+        }
         try {
             // Tao ket noi CSDL
             Connection con = JDBCUtil.getConnection();

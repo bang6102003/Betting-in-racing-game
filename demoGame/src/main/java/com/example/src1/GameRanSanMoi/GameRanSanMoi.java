@@ -188,6 +188,9 @@ public class GameRanSanMoi extends JFrame implements ActionListener, KeyListener
             int diem = Integer.parseInt(score.getText());
             user2.updatePoint(TongTien+diem,username);
             Account_Panel.SODU_TEXT.setText(String.valueOf(TongTien+diem));
+            User_ToanCuc.setPlayer_point(TongTien+diem);
+            System.out.println(User_ToanCuc.getPlayer_point());
+
             return diem;
         }
         

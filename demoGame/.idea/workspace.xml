@@ -12,25 +12,18 @@
     <list default="true" id="30d66572-042c-41c3-a2dd-a25822d6e3a1" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo1_jar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-05-Jun-2023-15.41.23.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-05-Jun-2023-15.41.29.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-05-Jun-2023-15.41.46.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/logs/FXGL-05-Jun-2023-15.41.56.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/logs/FXGL-05-Jun-2023-15.41.59.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/artifacts/demo1_jar/demo1.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/GeoWarsApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/GeoWarsFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/MyFunctionComponent.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/playerComponent.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/src1/Bean/DanhMuc.java" afterDir="false" />
@@ -43,10 +36,8 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/src1/Model/User_ToanCuc.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/src1/Model/item.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/src1/controller/ChuyenManhinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/src1/controller/Controller_Datcuoc.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/src1/controller/Controller_Login.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/src1/controller/Logout_controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/src1/controller/TaiKhoan_controller.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/src1/controller/TinhDiem_controller.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/src1/view/Account_Panel.form" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/src1/view/Account_Panel.java" afterDir="false" />
@@ -72,7 +63,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/src1/view/Trangchu_panel.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/src1/view/racing.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/json/map.tmj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/Map1.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/Map2.jpg" afterDir="false" />
@@ -81,10 +71,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/Screenshot_2023-05-15_075441-removebg-preview.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/black-square.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/decor-PhotoRoom.png-PhotoRoom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/map.tmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/map1.tmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/map2.tmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/map3.tmx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/road-removebg-preview.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/road-removebg-preview1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/square-xxl.png" afterDir="false" />
@@ -152,9 +138,6 @@
       </list>
     </option>
   </component>
-  <component name="FindBugs-IDEA-Workspace">
-    <toolWindowEditorPreview>false</toolWindowEditorPreview>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -183,15 +166,16 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/OneDrive/Máy tính/doan/demo1/src/main/java/com/example/src1/Model&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Betting-in-racing-game&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\OneDrive\Máy tính\doan\demo1\src\main\java\com\example\src1\view" />
       <recent name="C:\Users\ASUS\OneDrive\Máy tính\doan\demo1\src\main\java\com\example\src1\Model" />
       <recent name="C:\Users\ASUS\OneDrive\Máy tính\doan\demo1\src\main\java\com\example\src1\DAO" />
       <recent name="C:\Users\ASUS\OneDrive\Máy tính\stash\demo1\src\main\resources\assets\textures" />
@@ -212,6 +196,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
   </component>

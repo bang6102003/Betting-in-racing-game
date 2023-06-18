@@ -1,3 +1,16 @@
 Manifest-Version: 1.0
 Main-Class: com.example.src1.Main.Main
+Class-Path: javafx-base-20-ea+4-win.jar tilesfx-17.1.15.jar javafx-web-2
+ 0-ea+4.jar javafx-web-20-ea+4-win.jar javafx-fxml-20-ea+4.jar kotlin-st
+ dlib-common-1.6.0.jar lifecycle-4.0.13.jar javafx-swing-20-ea+4-win.jar
+  fxgl-core-17.2.jar jackson-core-2.12.1.jar javafx-graphics-20-ea+4.jar
+  jackson-annotations-2.12.1.jar javafx-graphics-20-ea+4-win.jar jackson
+ -databind-2.12.1.jar javafx-swing-20-ea+4.jar javafx-media-20-ea+4.jar 
+ kotlin-stdlib-1.6.0-modular.jar ojdbc8.jar util-4.0.13.jar heatmap-17.0
+ .12.jar annotations-13.0.jar countries-17.0.23.jar fxgl-io-17.2.jar jav
+ afx-controls-20-ea+4-win.jar javafx-controls-20-ea+4.jar javafx-base-20
+ -ea+4.jar javafx-fxml-20-ea+4-win.jar toolbox-17.0.26.jar storage-4.0.1
+ 3.jar fxgl-gameplay-17.2.jar fxgl-17.2.jar fxgl-scene-17.2.jar toolboxf
+ x-17.0.29.jar javafx-media-20-ea+4-win.jar controlsfx-11.1.2.jar audio-
+ 4.0.13.jar fxgl-entity-17.2.jar
 

@@ -1,0 +1,182 @@
+15:59:20.430 [main                     ] DEBUG Logger               - Configured Logger
+15:59:20.446 [main                     ] DEBUG GameApplication      - Logging settings
+Title: Geometry Wars
+Version: 0.0
+Width: 1920
+Height: 1080
+Fullscreen: false
+Intro: false
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.app.scene.SceneFactory
+
+15:59:20.694 [JavaFX Application Thread] DEBUG FXGLApplication      - Initializing FXGL
+15:59:20.698 [JavaFX Application Thread] INFO  Engine               - FXGL-17.2 (20.08.2022 16.50) on WINDOWS (J:20 FX:20-ea)
+15:59:20.698 [JavaFX Application Thread] DEBUG Engine               - JRE Vendor Name: Oracle Corporation
+15:59:20.698 [JavaFX Application Thread] DEBUG Engine               - Running on OS: Windows 11 version 10.0
+15:59:20.698 [JavaFX Application Thread] DEBUG Engine               - Architecture: amd64
+15:59:20.698 [JavaFX Application Thread] INFO  Engine               - Source code and latest versions at: https://github.com/AlmasB/FXGL
+15:59:20.698 [JavaFX Application Thread] INFO  Engine               -       Ask questions and discuss at: https://github.com/AlmasB/FXGL/discussions
+15:59:20.699 [JavaFX Application Thread] INFO  Engine               -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+15:59:20.753 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Creating a JavaFX scene
+15:59:20.753 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Target size > screen size
+15:59:20.782 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Target settings size: 1920.0 x 1080.0
+15:59:20.782 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled scene size:    1809.0 x 1031.0
+15:59:20.783 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled ratio: (0.9421875, 0.9546296296296296)
+15:59:20.785 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Set initial scene to FXGLStartupScene
+15:59:20.789 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Opening main window
+15:59:20.846 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Window border size: (16.0, 39.0)
+15:59:20.847 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled size: 1809.0 x 1031.0
+15:59:20.847 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled ratio: (0.9421875, 0.9546296296296296)
+15:59:20.847 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scene size: 1809.0 x 1031.0
+15:59:20.848 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Stage size: 1825.0 x 1070.0
+15:59:20.853 [FXGL Background Thread 1 ] DEBUG Engine               - Initializing environment variables
+15:59:20.893 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - User app class for loading assets: class com.example.demo1.GeoWarsApp
+15:59:20.893 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Applying CSS: fxgl_dark.css
+15:59:20.894 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/ASUS/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/ui/css/fxgl_dark.css
+15:59:20.926 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Initializing application scenes
+15:59:20.976 [FXGL Background Thread 1 ] DEBUG GameWorld            - Game world initialized
+15:59:21.024 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=1080, physics.ppm=50.0
+15:59:21.026 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Using strategy: BRUTE_FORCE
+15:59:21.031 [FXGL Background Thread 1 ] DEBUG GameScene            - Game scene initialized: 1920x1080
+15:59:21.037 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createMenuBodyGameMenu()
+15:59:21.046 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createOptionsMenu()
+15:59:21.053 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/ASUS/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/textures/particles/smoke.png
+15:59:21.149 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/ASUS/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/textures/particles/trace_horizontal.png
+15:59:21.180 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Application scenes initialized
+15:59:21.205 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Loading FXGL system data
+15:59:21.214 [FXGL Background Thread 1 ] DEBUG FileSystemAccess     - Reading from: C:\Users\ASUS\OneDrive\Máy tính\doan\demo1\system\fxgl.bundle
+15:59:21.224 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Bundle FXGL: {}
+15:59:21.224 [FXGL Background Thread 1 ] DEBUG UpdaterService       - Checking for updates
+15:59:21.227 [FXGL Background Thread 4 ] DEBUG FXGLApplication      - Loading fonts
+15:59:21.227 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/ASUS/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/ui/fonts/VarelaRound-Regular.ttf
+15:59:21.228 [FXGL Background Thread 1 ] DEBUG FXGLApplication      - Loading default localization
+15:59:21.230 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/ASUS/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/languages/english.lang
+15:59:21.268 [FXGL Background Thread 1 ] INFO  FXGLApplication      - FXGL initialization took: 0.415 sec
+15:59:21.270 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/ASUS/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/textures/fxgl_icon.png
+15:59:21.284 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/ASUS/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/ui/fonts/Abel-Regular.ttf
+15:59:21.288 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/ASUS/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/ui/fonts/TerminalLandMono-Regular.otf
+15:59:21.291 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/ASUS/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/ui/fonts/Courier-Prime.ttf
+15:59:21.292 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/ASUS/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/textures/fxgl_default_cursor.png
+15:59:21.308 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - CTRL+8
+15:59:21.309 [JavaFX Application Thread] DEBUG Input                - Registered new binding: System info dump - CTRL+9
+15:59:21.309 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+15:59:21.311 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Toggle Debug Camera - CTRL+7
+15:59:21.316 [JavaFX Application Thread] DEBUG LoopRunner           - Starting loop
+15:59:21.316 [JavaFX Application Thread] DEBUG LoopRunner           - Initializing JavaFX AnimationTimerLoop
+15:59:21.318 [JavaFX Application Thread] DEBUG GameApplicationServi - Starting new game
+15:59:21.318 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+15:59:21.336 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLStartupScene and adding to FXGLLoadingScene
+15:59:21.336 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLStartupScene -> FXGLLoadingScene
+15:59:21.336 [JavaFX Application Thread] DEBUG GameApplicationServi - Clearing previous game
+15:59:21.336 [JavaFX Application Thread] DEBUG GameScene            - Clearing game scene
+15:59:21.336 [JavaFX Application Thread] DEBUG GameWorld            - Clearing game world
+15:59:21.336 [JavaFX Application Thread] DEBUG PhysicsWorld         - Clearing physics world
+15:59:21.339 [FXGL Background Thread 4 ] DEBUG FXGLApplication      - Initializing game
+15:59:21.342 [JavaFX Application Thread] DEBUG FXGLApplication      - Registering font factories with UI factory
+15:59:21.410 [FXGL Background Thread 4 ] WARN  TMXLevelLoader       - TiledMap generated from 1.10.1. Supported version: 1.9.0. Some features may not be parsed fully.
+15:59:21.440 [FXGL Background Thread 4 ] DEBUG TMXLevelLoader       - Parsed TiledMap: file:/C:/Users/ASUS/OneDrive/Máy%20tính/doan/demo1/target/classes/assets/levels/map3.tmx
+15:59:21.442 [FXGL Background Thread 4 ] DEBUG TMXLevelLoader       - Creating tile layer entities
+15:59:21.445 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Loading view for layer Tile Layer 1
+15:59:21.478 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Created buffer with size 10260.0x1080.0
+15:59:21.621 [FXGL Background Thread 4 ] DEBUG TMXLevelLoader       - Creating object layer entities
+15:59:21.669 [FXGL Background Thread 4 ] DEBUG GameWorld            - Clearing removable entities
+15:59:21.670 [FXGL Background Thread 4 ] DEBUG GameWorld            - Setting level: com.almasb.fxgl.entity.level.Level@6f21b6ea
+15:59:21.683 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/ASUS/OneDrive/Máy%20tính/doan/demo1/target/classes/assets/textures/lava.gif
+15:59:21.870 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.871 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.871 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.872 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.872 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.873 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.873 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.874 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.874 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.875 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.876 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.876 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.877 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.877 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.878 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.878 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.879 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.879 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.880 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.881 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.881 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.882 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.882 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.883 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.883 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.884 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.884 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.884 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.885 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.885 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.886 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.886 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.887 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.887 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.887 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.888 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.888 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.889 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.889 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.889 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.890 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.890 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.891 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.891 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.891 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.892 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.893 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.893 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.894 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.894 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.894 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/ASUS/OneDrive/Máy%20tính/doan/demo1/target/classes/assets/textures/start.gif
+15:59:21.969 [FXGL Background Thread 4 ] WARN  GameWorld            - Entity is already attached to world
+15:59:21.979 [JavaFX Application Thread] DEBUG LoopRunner           - Stopping loop
+15:59:21.981 [JavaFX Application Thread] FATAL FXGLApplication      - Uncaught Exception:
+java.lang.RuntimeException: Initialization failed
+	at com.almasb.fxgl.all@17.2/com.almasb.fxgl.app.FXGLApplication$InitAppTask.failed(FXGLApplication.kt:343)
+	at javafx.graphics@20-ea/javafx.concurrent.Task.setState(Task.java:710)
+	at javafx.graphics@20-ea/javafx.concurrent.Task$TaskCallable.lambda$call$2(Task.java:1456)
+	at javafx.graphics@20-ea/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@20-ea/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at javafx.graphics@20-ea/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics@20-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@20-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.example.demo1/com.example.demo1.GeoWarsApp.initGame(GeoWarsApp.java:184)
+	at com.almasb.fxgl.all@17.2/com.almasb.fxgl.app.FXGLApplication$InitAppTask.initGame(FXGLApplication.kt:339)
+	at com.almasb.fxgl.all@17.2/com.almasb.fxgl.app.FXGLApplication$InitAppTask.call(FXGLApplication.kt:319)
+	at com.almasb.fxgl.all@17.2/com.almasb.fxgl.app.FXGLApplication$InitAppTask.call(FXGLApplication.kt:311)
+	at javafx.graphics@20-ea/javafx.concurrent.Task$TaskCallable.call(Task.java:1426)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	... 1 more
+
+15:59:21.982 [JavaFX Application Thread] FATAL FXGLApplication      - Application will now exit
+15:59:22.002 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Push state: ErrorSubScene
+15:59:22.002 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+15:59:22.005 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLLoadingScene and adding to ErrorSubScene
+15:59:22.006 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLLoadingScene -> ErrorSubScene
+15:59:22.214 [FXGL Background Thread 2 ] INFO  UpdaterService       - Your current version:  17.2
+15:59:22.215 [FXGL Background Thread 2 ] INFO  UpdaterService       - Latest stable version: 17.3
+15:59:23.792 [JavaFX Application Thread] DEBUG FXGLApplication      - Exiting FXGL
+15:59:23.792 [JavaFX Application Thread] DEBUG Async                - Shutting down background threads
+15:59:23.792 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Closing main window
+15:59:23.827 [JavaFX Application Thread] DEBUG Logger               - Closing Logger
